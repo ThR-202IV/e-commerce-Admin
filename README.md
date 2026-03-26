@@ -1,8 +1,20 @@
-# React + Vite
+## Project Overview: Threaded, a Fashion E-commerce Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository serves as the core engine for Threaded, a modern Fashion E-commerce ecosystem. To ensure a clean separation of concerns, the project is divided into three specialized modules:
 
-Currently, two official plugins are available:
+- **Client Side** **-**
+The React-based user interface. A high-performance, responsive storefront built with React.js and Tailwind CSS. It features a dynamic product catalog and an interactive shopping cart with Stripe integration, and real-time order tracking for a seamless customer journey.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Server Side** **-**
+The Node.js API and database layer. A robust RESTful API powered by Node.js and Express.js. It manages secure user authentication via JWT, handles complex business logic for orders and payments, and uses MongoDB with Mongoose for scalable data persistence.
+
+- **Admin Side** **-**
+The internal dashboard for managing data. A secure, role-based management portal that gives administrators full CRUD control over the product catalog. It includes integrated Cloudinary support for image uploads and a dedicated interface to update and sync order statuses in real time.
+
+## Central Documentation
+The Business Requirements Document (BRD) is maintained in the Server-Side repository to ensure a single source of truth.
+  - Business Requirements Document file - LINK
+
+## Related Repositories
+  - Client Side: [View Client Repository](https://github.com/ThR-202IV/e-commerce-FE)
+  - Server Side: [View Server Repository](https://github.com/ThR-202IV/e-commerce-BE)
